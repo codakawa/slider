@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* @import url("images/arrow.png"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif ;
+}
+
+
+.sliderBlock {
+  width: 552px;
+  height: 379px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+}
+
+.postImage {
+  width: 200px;
+  height: 300px;
+  /* background-color: #fff; */
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.continueRead {
+  position: absolute;
+  width: 164px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 24px;
+  bottom: 22px;
+  right: 39px;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.postText {
+  margin-left: 23px;
+  margin-top: 40px;
+  width: 270px;
+}
+
+.postText h2{
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.postText p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.btns {
+  display: flex;
+  gap: 70px;
+}
+
+.changePageBtnRight, .changePageBtnLeft {
+  width: 20px;
+  height: 37px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+.changePageBtnRight {
+  background-image: url("images/arrow.png");
+}
+
+.changePageBtnLeft {
+  background-image: url("images/arrow.png");
+  transform: rotate(180deg);
+}
+
+/* .toLeft {
+  transform: translateX(-170px);
+} */
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+}
+.sliderBlocks {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.recommendBooksTitle {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.recommendBooksTitle span {
+  font-family: 'Pacifico';
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125.3%;
+  color: #FF4004;
+}
+
+.recommendBooksTitle h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 125.3%;
+  margin-left: -15px;
+}
